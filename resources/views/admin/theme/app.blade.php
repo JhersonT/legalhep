@@ -75,7 +75,7 @@
                 <img alt="image" src="{{asset("admin/img/userbig.png")}}">
               </div>
               <div class="sidebar-user-details">
-                <div class="user-name">{{auth()->user()->name}}</div>
+                <div class="user-name">{{auth()->user()->name}} sss</div>
                 <div class="user-role">{{ auth()->user()->getRoleNames()["0"]?auth()->user()->getRoleNames()["0"] !== "Admin"? auth()->user()->getRoleNames()["0"]: "Administrador" : "" ;}}</div>
               </div>
             </div>
